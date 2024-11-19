@@ -5,7 +5,7 @@ Index_list = 0
 while 1 > 0:
     number = index(my_list[Index_list])
     Len = len(my_list)
-    if number < 0 or Index_list == Len:
+    if number < 0 or Index_list >= Len - 1:
         break
     else:
         print(number)
